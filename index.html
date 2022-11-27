@@ -516,8 +516,33 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-form-wrap">
+          <form action="" class="footer-form"></form>
+
+          <label for="footer-mail" class="footer-email"
+            >Підпишіться на розсилку</label
+          >
+          <div class="test">
+            <input
+              name="email"
+              type="text"
+              id="footer-mail"
+              placeholder="E-mail"
+              class="footer-input"
+            />
+            <button type="submit" class="footer-sub-btn">
+              Підписатися
+              <svg width="24" height="24" class="icon-plane">
+                <use href="./images/symbol-defs.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
+
+    <!-- Модалка -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
@@ -575,6 +600,7 @@
             class="coment"
             placeholder="Введіть текст"
           ></textarea>
+
           <input
             type="checkbox"
             id="form-checkbox"
@@ -587,7 +613,7 @@
               </svg>
             </span>
             Погоджуюся з розсилкою та приймаю
-            <a class="confirm"> Умови договору</a></label
+            <a class="confirm">Умови договору</a></label
           >
 
           <button type="submit" class="modal-button">Відправити</button>

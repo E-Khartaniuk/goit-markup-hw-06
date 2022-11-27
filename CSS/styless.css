@@ -631,6 +631,74 @@ ul {
   gap: 10px;
 }
 
+.footer-email {
+  display: block;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color-white);
+  margin-bottom: 20px;
+}
+
+.footer-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  outline: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 12px;
+}
+
+.footer-input::placeholder {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-input:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.footer-sub-btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
+
+  color: var(--text-color-white);
+  justify-content: center;
+}
+
+.icon-plane {
+  fill: var(--text-color-white);
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.footer-form-wrap {
+  position: relative;
+  margin-left: auto;
+}
+
+.test {
+  display: flex;
+}
+
 /* Сторінка портфоліо */
 /* фільтр */
 
@@ -920,8 +988,7 @@ ul {
   color: var(--secondary-text-color);
   margin-bottom: 30px;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 .confirm {
@@ -978,11 +1045,6 @@ ul {
   margin-right: auto;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-button:focus,
-.modal-button:hover {
-  background-color: #188ce8;
 }
 
 .modal-close {
